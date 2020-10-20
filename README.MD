@@ -1,4 +1,6 @@
 
+*** Could not complete Project, please refer to README_ISSUES_01.md
+
 ================= PROJECT REQUIREMENTS ================= 
 Specify the Truffle version and OpenZeppelin version used in the project.
 Truffle v5.1.48
