@@ -22,7 +22,6 @@ const App = {
       // get contract instance
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = starNotaryArtifact.networks[networkId];
-      // deployedNetwork.address,
       const options = { from: the_account, gas: 2000000};
       this.meta = new web3.eth.Contract(
         starNotaryArtifact.abi,
